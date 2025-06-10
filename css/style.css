@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.header-element {
+    margin: 0 auto;
+    width: 1220px;
+    display: flex;
+    margin-top: 53px;
+    margin-bottom: 136px;
+}
+.logo {
+    margin-right: 195px;
+    vertical-align: middle;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.ul-container {
+    display: flex;
+    width: 601px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-text {
+    /* font-family: 'Inter 18pt';
+    src: url('../fonts/Inter18pt-Regular.eot');
+    src: url('../fonts/Inter18pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Inter18pt-Regular.woff2') format('woff2'),
+        url('../fonts/Inter18pt-Regular.woff') format('woff'),
+        url('../fonts/Inter18pt-Regular.svg#Inter18pt-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+    }
+    */
+    color: #37393F;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+    
+.header-box {
+    /* font-family: 'Cabin';
+    src: url('../fonts/Cabin-Regular.eot');
+    src: url('../fonts/Cabin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cabin-Regular.woff2') format('woff2'),
+        url('../fonts/Cabin-Regular.woff') format('woff'),
+        url('../fonts/Cabin-Regular.svg#Cabin-Regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap; */
+    background-color: #6B77E5;
+    width: 184px;
+    height: 65px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.text-box {
+    margin-bottom: 41px;
+}
+.title-mini {
+    color: #37393F;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.title-bold {
+    /* font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg'); */
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #37393F;
+    line-height: 121%;
+    text-transform: capitalize;
+    text-align: center;
+}
+.container-1 {
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+}
+.box {
+    background-color: #F4F4F4;
+    width: 386px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #37393F;
+    line-height: 127%;
+    text-transform: capitalize;
+    padding-bottom: 16px;
+}
+.box-text-1 {
+    text-align: center;
+    width: 300px;
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 146%;
+    padding-bottom: 37px;
+    
+}
+.icon-title {
+    color: #6B77E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.div-icon {
+    background-color: #40DDB6;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+}
